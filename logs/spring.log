@@ -1,0 +1,698 @@
+07-06-2021 21:00:08.341 [main] INFO  r.g.a.AprilMarketApplication.logStarting - Starting AprilMarketApplication using Java 11.0.11 on DESKTOP-7D1P5J8 with PID 12976 (C:\Users\hrom9\Downloads\WebMarket8\april-market\target\classes started by VAR-VAR in C:\Users\hrom9\Downloads\WebMarket8)
+07-06-2021 21:00:08.344 [main] INFO  r.g.a.AprilMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-06-2021 21:00:10.061 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+07-06-2021 21:00:10.076 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-06-2021 21:00:10.076 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+07-06-2021 21:00:10.186 [main] INFO  o.a.c.c.C.[.[localhost].[/shop].log - Initializing Spring embedded WebApplicationContext
+07-06-2021 21:00:10.186 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1803 ms
+07-06-2021 21:00:10.322 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.1.1 by Redgate
+07-06-2021 21:00:10.330 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-06-2021 21:00:10.521 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-06-2021 21:00:10.566 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.2)
+07-06-2021 21:00:10.632 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 3 migrations (execution time 00:00.034s)
+07-06-2021 21:00:10.641 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "april-market": 2
+07-06-2021 21:00:10.642 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "april-market" is up to date. No migration necessary.
+07-06-2021 21:00:10.710 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-06-2021 21:00:10.765 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+07-06-2021 21:00:10.909 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-06-2021 21:00:11.009 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+07-06-2021 21:00:11.609 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-06-2021 21:00:11.618 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-06-2021 21:00:11.969 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-06-2021 21:00:12.778 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 21 mappings in 'requestMappingHandlerMapping'
+07-06-2021 21:00:12.927 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@738da6f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fe87cb9, org.springframework.security.web.header.HeaderWriterFilter@8850865, org.springframework.security.web.authentication.logout.LogoutFilter@53741683, ru.geekbrains.aprilmarket.beans.JwtRequestFilter@6f53295e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4843b35f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b548913, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b513ce8, org.springframework.security.web.session.SessionManagementFilter@59eff566, org.springframework.security.web.access.ExceptionTranslationFilter@1b914e36, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fbb2e1c]
+07-06-2021 21:00:12.946 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+07-06-2021 21:00:12.999 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-06-2021 21:00:13.019 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+07-06-2021 21:00:13.067 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+07-06-2021 21:00:13.075 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+07-06-2021 21:00:13.089 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+07-06-2021 21:00:13.211 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService 'taskScheduler'
+07-06-2021 21:00:13.335 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/shop'
+07-06-2021 21:00:13.336 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+07-06-2021 21:00:13.357 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+07-06-2021 21:00:13.404 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+07-06-2021 21:00:13.592 [main] INFO  r.g.a.AprilMarketApplication.logStarted - Started AprilMarketApplication in 5.66 seconds (JVM running for 12.222)
+07-06-2021 21:01:00.005 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:01:00
+07-06-2021 21:01:02.069 [http-nio-8189-exec-1] INFO  o.a.c.c.C.[.[localhost].[/shop].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-06-2021 21:01:02.069 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-06-2021 21:01:02.070 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+07-06-2021 21:01:02.070 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+07-06-2021 21:01:02.070 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+07-06-2021 21:01:02.071 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5112858c
+07-06-2021 21:01:02.071 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@38f704f4
+07-06-2021 21:01:02.071 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+07-06-2021 21:01:02.072 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 3 ms
+07-06-2021 21:01:02.098 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:01:02.103 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:01:02.273 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:02.275 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:01:02.305 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:07.874 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - OPTIONS "/shop/auth", parameters={}
+07-06-2021 21:01:07.875 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.AuthController#createToken(JwtRequest)
+07-06-2021 21:01:07.877 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:07.882 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/auth", parameters={}
+07-06-2021 21:01:07.883 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.AuthController#createToken(JwtRequest)
+07-06-2021 21:01:07.910 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [JwtRequest(username=bob1, password=111)]
+07-06-2021 21:01:08.395 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:08.396 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [JwtResponse(token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib2IxIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTYyM (truncated)...]
+07-06-2021 21:01:08.397 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:09.828 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - OPTIONS "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:01:09.829 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:01:09.830 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:09.854 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:01:09.854 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:01:09.858 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:09.859 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:01:09.860 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:11.034 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - OPTIONS "/shop/api/v1/cart/add?product_id=1", parameters={masked}
+07-06-2021 21:01:11.034 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:01:11.035 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:11.040 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart/add?product_id=1", parameters={masked}
+07-06-2021 21:01:11.041 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:01:11.811 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - OPTIONS "/shop/api/v1/cart", parameters={}
+07-06-2021 21:01:11.811 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:01:11.812 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:11.817 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:01:11.818 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:01:13.083 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - OPTIONS "/shop/api/v1/orders", parameters={}
+07-06-2021 21:01:13.083 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.OrderController#getCurrentUserOrders(Principal)
+07-06-2021 21:01:13.084 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:13.090 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/orders", parameters={}
+07-06-2021 21:01:13.090 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.OrderController#getCurrentUserOrders(Principal)
+07-06-2021 21:01:13.112 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:13.125 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [[OrderDto(id=1, username=bob1, address=5353535, totalPrice=50.00, items=[OrderItemDto(productId=1, p (truncated)...]
+07-06-2021 21:01:13.128 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:13.532 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:01:13.537 [http-nio-8189-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:01:13.539 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/shop/error?product_id=1", parameters={masked}
+07-06-2021 21:01:13.542 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:01:13.544 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:13.544 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:01:13 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:01:13.546 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:01:15.559 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:01:15.561 [http-nio-8189-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:01:15.563 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for GET "/shop/error", parameters={}
+07-06-2021 21:01:15.564 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:01:15.565 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:15.565 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:01:15 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:01:15.566 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:01:15.569 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:01:15.570 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:01:16.159 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:01:16.160 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:01:16.166 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:16.166 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:01:16.167 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:01:17.629 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:01:17.630 [http-nio-8189-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:01:17.631 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for GET "/shop/error", parameters={}
+07-06-2021 21:01:17.632 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:01:17.633 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:01:17.633 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:01:17 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:01:17.635 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:02:00.010 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:02:00
+07-06-2021 21:02:50.026 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart/add?product_id=1", parameters={masked}
+07-06-2021 21:02:50.027 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:02:51.270 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:02:51.271 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:02:52.073 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:02:52.078 [http-nio-8189-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:02:52.081 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/shop/error?product_id=1", parameters={masked}
+07-06-2021 21:02:52.082 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:02:52.085 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:02:52.086 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:02:52 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:02:52.091 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:02:54.117 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:02:54.120 [http-nio-8189-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:02:54.121 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for GET "/shop/error", parameters={}
+07-06-2021 21:02:54.123 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:02:54.124 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:02:54.124 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:02:54 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:02:54.125 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:02:54.131 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:02:54.132 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:02:54.828 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:02:54.828 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:02:54.833 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:02:54.833 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:02:54.835 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:02:55.786 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart/add?product_id=1", parameters={masked}
+07-06-2021 21:02:55.786 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:02:56.168 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:02:56.170 [http-nio-8189-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:02:56.171 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for GET "/shop/error", parameters={}
+07-06-2021 21:02:56.172 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:02:56.173 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:02:56.173 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:02:56 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:02:56.174 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:02:56.804 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:02:56.805 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:02:58.215 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:02:58.216 [http-nio-8189-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:02:58.217 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/shop/error?product_id=1", parameters={masked}
+07-06-2021 21:02:58.217 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:02:58.218 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:02:58.218 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:02:58 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:02:58.219 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:03:00.006 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:03:00
+07-06-2021 21:03:00.258 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+07-06-2021 21:03:00.259 [http-nio-8189-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379] with root cause
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:03:00.261 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for GET "/shop/error", parameters={}
+07-06-2021 21:03:00.261 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:03:00.262 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:03:00.263 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:03:00 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:03:00.265 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:04:00.017 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:04:00
+07-06-2021 21:05:00.015 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:05:00
+07-06-2021 21:06:00.012 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:06:00
+07-06-2021 21:06:18.272 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:06:18.273 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:06:18.280 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:06:18.280 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:06:18.281 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:06:19.320 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart/add?product_id=1", parameters={masked}
+07-06-2021 21:06:19.321 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:06:19.423 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:06:19.424 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [""]
+07-06-2021 21:06:19.424 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:06:20.054 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:06:20.054 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:06:20.069 [http-nio-8189-exec-2] INFO  r.g.a.controllers.CartController.getCurrentCart - Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, productId=1, title=Banana, quantity=1, pricePerProduct=50.00, price=50.00)], price=50.00)
+07-06-2021 21:06:20.084 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:06:20.089 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[CartItemDto(productId=1, productTitle=Banana, quantity=1, pricePerProduct=50.00, pric (truncated)...]
+07-06-2021 21:06:20.090 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:06:21.688 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - OPTIONS "/shop/api/v1/cart", parameters={}
+07-06-2021 21:06:21.689 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#clearCart(Principal)
+07-06-2021 21:06:21.689 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:06:21.695 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - DELETE "/shop/api/v1/cart", parameters={}
+07-06-2021 21:06:21.695 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#clearCart(Principal)
+07-06-2021 21:06:21.707 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:06:21.707 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[], totalPrice=50.00)]
+07-06-2021 21:06:21.708 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:06:21.715 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:06:21.716 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:06:21.722 [http-nio-8189-exec-6] INFO  r.g.a.controllers.CartController.getCurrentCart - Cart(ownerId=1, cartItems=[], price=50.00)
+07-06-2021 21:06:21.723 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:06:21.723 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[], totalPrice=50.00)]
+07-06-2021 21:06:21.723 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:06:22.821 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart", parameters={}
+07-06-2021 21:06:22.821 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#updateCart(Cart)
+07-06-2021 21:06:22.822 [http-nio-8189-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public ru.geekbrains.aprilmarket.entities.Cart ru.geekbrains.aprilmarket.controllers.CartController.updateCart(ru.geekbrains.aprilmarket.entities.Cart)]
+07-06-2021 21:06:22.823 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 400 BAD_REQUEST
+07-06-2021 21:06:22.823 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/shop/error", parameters={}
+07-06-2021 21:06:22.823 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:06:22.824 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:06:22.824 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:06:22 MSK 2021, status=400, error=Bad Request, message=, path=/shop/api/v1/ (truncated)...]
+07-06-2021 21:06:22.825 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 400
+07-06-2021 21:07:00.005 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:07:00
+07-06-2021 21:07:46.664 [main] INFO  r.g.a.AprilMarketApplication.logStarting - Starting AprilMarketApplication using Java 11.0.11 on DESKTOP-7D1P5J8 with PID 13808 (C:\Users\hrom9\Downloads\WebMarket8\april-market\target\classes started by VAR-VAR in C:\Users\hrom9\Downloads\WebMarket8)
+07-06-2021 21:07:46.664 [main] INFO  r.g.a.AprilMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-06-2021 21:07:48.229 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+07-06-2021 21:07:48.236 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-06-2021 21:07:48.237 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+07-06-2021 21:07:48.353 [main] INFO  o.a.c.c.C.[.[localhost].[/shop].log - Initializing Spring embedded WebApplicationContext
+07-06-2021 21:07:48.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1658 ms
+07-06-2021 21:07:48.466 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.1.1 by Redgate
+07-06-2021 21:07:48.466 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-06-2021 21:07:48.651 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-06-2021 21:07:48.667 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.2)
+07-06-2021 21:07:48.714 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 3 migrations (execution time 00:00.023s)
+07-06-2021 21:07:48.714 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "april-market": 2
+07-06-2021 21:07:48.714 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "april-market" is up to date. No migration necessary.
+07-06-2021 21:07:48.784 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-06-2021 21:07:48.815 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+07-06-2021 21:07:48.914 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-06-2021 21:07:49.030 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+07-06-2021 21:07:49.590 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-06-2021 21:07:49.598 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-06-2021 21:07:49.935 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-06-2021 21:07:50.670 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 21 mappings in 'requestMappingHandlerMapping'
+07-06-2021 21:07:50.816 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e3c5ef1, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f794b0f, org.springframework.security.web.header.HeaderWriterFilter@3d287f7c, org.springframework.security.web.authentication.logout.LogoutFilter@28ec92c9, ru.geekbrains.aprilmarket.beans.JwtRequestFilter@5bfeb9ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a49cdd6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bda93f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ca6f587, org.springframework.security.web.session.SessionManagementFilter@302692b1, org.springframework.security.web.access.ExceptionTranslationFilter@50cb64d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cee1bcf]
+07-06-2021 21:07:50.835 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+07-06-2021 21:07:50.887 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-06-2021 21:07:50.906 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+07-06-2021 21:07:50.949 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+07-06-2021 21:07:50.957 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+07-06-2021 21:07:50.970 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+07-06-2021 21:07:51.091 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService 'taskScheduler'
+07-06-2021 21:07:51.173 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/shop'
+07-06-2021 21:07:51.174 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+07-06-2021 21:07:51.186 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+07-06-2021 21:07:51.227 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+07-06-2021 21:07:51.410 [main] INFO  r.g.a.AprilMarketApplication.logStarted - Started AprilMarketApplication in 5.158 seconds (JVM running for 6.295)
+07-06-2021 21:08:00.006 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:08:00
+07-06-2021 21:09:00.011 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:09:00
+07-06-2021 21:09:11.988 [http-nio-8189-exec-1] INFO  o.a.c.c.C.[.[localhost].[/shop].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-06-2021 21:09:11.988 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-06-2021 21:09:11.989 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+07-06-2021 21:09:11.989 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+07-06-2021 21:09:11.989 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+07-06-2021 21:09:11.990 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@35e64c7b
+07-06-2021 21:09:11.991 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@892f1fa
+07-06-2021 21:09:11.991 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+07-06-2021 21:09:11.991 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 3 ms
+07-06-2021 21:09:12.011 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:09:12.016 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:09:12.173 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:09:12.174 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:09:12.228 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:09:18.025 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/auth", parameters={}
+07-06-2021 21:09:18.026 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.AuthController#createToken(JwtRequest)
+07-06-2021 21:09:18.052 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [JwtRequest(username=bob1, password=111)]
+07-06-2021 21:09:18.551 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:09:18.552 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [JwtResponse(token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib2IxIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTYyM (truncated)...]
+07-06-2021 21:09:18.553 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:09:19.829 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:09:19.829 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:09:19.834 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:09:19.834 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:09:19.836 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:09:20.976 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart/add?product_id=1", parameters={masked}
+07-06-2021 21:09:20.977 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:09:21.451 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:09:21.452 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [""]
+07-06-2021 21:09:21.453 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:09:21.795 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:09:21.795 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:09:21.807 [http-nio-8189-exec-5] INFO  r.g.a.controllers.CartController.getCurrentCart - Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, productId=1, title=Banana, quantity=1, pricePerProduct=50.00, price=50.00)], price=50.00)
+07-06-2021 21:09:21.823 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:09:21.829 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[CartItemDto(productId=1, productTitle=Banana, quantity=1, pricePerProduct=50.00, pric (truncated)...]
+07-06-2021 21:09:21.831 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:09:54.748 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart", parameters={}
+07-06-2021 21:09:54.749 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#updateCart(Cart)
+07-06-2021 21:09:54.753 [http-nio-8189-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public ru.geekbrains.aprilmarket.entities.Cart ru.geekbrains.aprilmarket.controllers.CartController.updateCart(ru.geekbrains.aprilmarket.entities.Cart)]
+07-06-2021 21:09:54.754 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 400 BAD_REQUEST
+07-06-2021 21:09:54.757 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/shop/error", parameters={}
+07-06-2021 21:09:54.760 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:09:54.763 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:09:54.764 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:09:54 MSK 2021, status=400, error=Bad Request, message=, path=/shop/api/v1/ (truncated)...]
+07-06-2021 21:09:54.767 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 400
+07-06-2021 21:10:00.014 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:10:00
+07-06-2021 21:12:53.980 [main] INFO  r.g.a.AprilMarketApplication.logStarting - Starting AprilMarketApplication using Java 11.0.11 on DESKTOP-7D1P5J8 with PID 5512 (D:\java\WebMarket8\april-market\target\classes started by VAR-VAR in D:\java\WebMarket8)
+07-06-2021 21:12:53.980 [main] INFO  r.g.a.AprilMarketApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-06-2021 21:12:55.485 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8189 (http)
+07-06-2021 21:12:55.493 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-06-2021 21:12:55.493 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.45]
+07-06-2021 21:12:55.638 [main] INFO  o.a.c.c.C.[.[localhost].[/shop].log - Initializing Spring embedded WebApplicationContext
+07-06-2021 21:12:55.639 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1621 ms
+07-06-2021 21:12:55.750 [main] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 7.1.1 by Redgate
+07-06-2021 21:12:55.757 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-06-2021 21:12:55.920 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-06-2021 21:12:55.938 [main] INFO  o.f.c.i.database.base.DatabaseType.info - Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 13.2)
+07-06-2021 21:12:55.978 [main] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 3 migrations (execution time 00:00.025s)
+07-06-2021 21:12:55.988 [main] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema "april-market": 2
+07-06-2021 21:12:55.989 [main] INFO  o.f.core.internal.command.DbMigrate.info - Schema "april-market" is up to date. No migration necessary.
+07-06-2021 21:12:56.047 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-06-2021 21:12:56.088 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.30.Final
+07-06-2021 21:12:56.191 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-06-2021 21:12:56.293 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+07-06-2021 21:12:56.905 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-06-2021 21:12:56.913 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-06-2021 21:12:57.252 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-06-2021 21:12:57.951 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 21 mappings in 'requestMappingHandlerMapping'
+07-06-2021 21:12:58.083 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ee6d5fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e04dbc1, org.springframework.security.web.header.HeaderWriterFilter@52b7a3e1, org.springframework.security.web.authentication.logout.LogoutFilter@d45acab, ru.geekbrains.aprilmarket.beans.JwtRequestFilter@5aec151b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9be2897, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b61aa50, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@358bbbe2, org.springframework.security.web.session.SessionManagementFilter@12b962b1, org.springframework.security.web.access.ExceptionTranslationFilter@528070fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2da7ef3e]
+07-06-2021 21:12:58.099 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+07-06-2021 21:12:58.151 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-06-2021 21:12:58.166 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+07-06-2021 21:12:58.213 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+07-06-2021 21:12:58.220 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+07-06-2021 21:12:58.220 [main] WARN  o.s.b.a.m.MustacheAutoConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+07-06-2021 21:12:58.347 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService 'taskScheduler'
+07-06-2021 21:12:58.428 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8189 (http) with context path '/shop'
+07-06-2021 21:12:58.430 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+07-06-2021 21:12:58.443 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+07-06-2021 21:12:58.485 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+07-06-2021 21:12:58.661 [main] INFO  r.g.a.AprilMarketApplication.logStarted - Started AprilMarketApplication in 5.073 seconds (JVM running for 6.321)
+07-06-2021 21:13:00.012 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:13:00
+07-06-2021 21:14:00.002 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:14:00
+07-06-2021 21:14:24.192 [http-nio-8189-exec-1] INFO  o.a.c.c.C.[.[localhost].[/shop].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-06-2021 21:14:24.192 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-06-2021 21:14:24.192 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+07-06-2021 21:14:24.192 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+07-06-2021 21:14:24.192 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+07-06-2021 21:14:24.194 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@26c24e5
+07-06-2021 21:14:24.194 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1acd952e
+07-06-2021 21:14:24.194 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+07-06-2021 21:14:24.194 [http-nio-8189-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+07-06-2021 21:14:24.213 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:14:24.218 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:14:24.406 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:24.407 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:14:24.434 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:38.208 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart/add?product_id=1", parameters={masked}
+07-06-2021 21:14:38.208 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:14:38.213 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: java.lang.NullPointerException
+07-06-2021 21:14:38.218 [http-nio-8189-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at ru.geekbrains.aprilmarket.controllers.CartController.addProductToCart(CartController.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at ru.geekbrains.aprilmarket.beans.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:14:38.221 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for POST "/shop/error?product_id=1", parameters={masked}
+07-06-2021 21:14:38.223 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:14:38.227 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:38.227 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:14:38 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:14:38.233 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:14:38.961 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:14:38.961 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:14:38.962 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Failed to complete request: java.lang.NullPointerException
+07-06-2021 21:14:38.966 [http-nio-8189-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [/shop] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at ru.geekbrains.aprilmarket.controllers.CartController.getCurrentCart(CartController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at ru.geekbrains.aprilmarket.beans.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+07-06-2021 21:14:38.968 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - "ERROR" dispatch for GET "/shop/error", parameters={}
+07-06-2021 21:14:38.969 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+07-06-2021 21:14:38.970 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:38.970 [http-nio-8189-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [{timestamp=Mon Jun 07 21:14:38 MSK 2021, status=500, error=Internal Server Error, message=, path=/sh (truncated)...]
+07-06-2021 21:14:38.971 [http-nio-8189-exec-3] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Exiting from "ERROR" dispatch, status 500
+07-06-2021 21:14:43.472 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/auth", parameters={}
+07-06-2021 21:14:43.473 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.AuthController#createToken(JwtRequest)
+07-06-2021 21:14:43.496 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Read "application/json;charset=UTF-8" to [JwtRequest(username=bob1, password=111)]
+07-06-2021 21:14:43.972 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:43.973 [http-nio-8189-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [JwtResponse(token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib2IxIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTYyM (truncated)...]
+07-06-2021 21:14:43.974 [http-nio-8189-exec-4] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:44.994 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:14:44.995 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:14:45.444 [http-nio-8189-exec-5] INFO  r.g.a.controllers.CartController.getCurrentCart - Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, productId=1, title=Banana, quantity=1, pricePerProduct=50.00, price=50.00)], price=50.00)
+07-06-2021 21:14:45.459 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:45.464 [http-nio-8189-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[CartItemDto(productId=1, productTitle=Banana, quantity=1, pricePerProduct=50.00, pric (truncated)...]
+07-06-2021 21:14:45.466 [http-nio-8189-exec-5] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:45.657 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/products?p=1", parameters={masked}
+07-06-2021 21:14:45.658 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.ProductController#findAllProducts(MultiValueMap, Integer)
+07-06-2021 21:14:45.662 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:45.662 [http-nio-8189-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [Page 1 of 5 containing ru.geekbrains.aprilmarket.dto.ProductDto instances]
+07-06-2021 21:14:45.665 [http-nio-8189-exec-6] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:47.302 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - OPTIONS "/shop/api/v1/cart/add?product_id=2", parameters={masked}
+07-06-2021 21:14:47.303 [http-nio-8189-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:14:47.304 [http-nio-8189-exec-7] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:47.310 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - POST "/shop/api/v1/cart/add?product_id=2", parameters={masked}
+07-06-2021 21:14:47.310 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#addProductToCart(Principal, Long)
+07-06-2021 21:14:47.328 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:47.329 [http-nio-8189-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [""]
+07-06-2021 21:14:47.330 [http-nio-8189-exec-8] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:48.031 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:14:48.031 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:14:48.044 [http-nio-8189-exec-9] INFO  r.g.a.controllers.CartController.getCurrentCart - Cart(ownerId=1, cartItems=[CartItem(id=null, cart=null, productId=1, title=Banana, quantity=1, pricePerProduct=50.00, price=50.00), CartItem(id=null, cart=null, productId=2, title=Something, quantity=1, pricePerProduct=99999.99, price=99999.99)], price=100049.99)
+07-06-2021 21:14:48.044 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:48.045 [http-nio-8189-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[CartItemDto(productId=1, productTitle=Banana, quantity=1, pricePerProduct=50.00, pric (truncated)...]
+07-06-2021 21:14:48.046 [http-nio-8189-exec-9] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:49.671 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - DELETE "/shop/api/v1/cart", parameters={}
+07-06-2021 21:14:49.672 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#clearCart(Principal)
+07-06-2021 21:14:49.685 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:49.685 [http-nio-8189-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[], totalPrice=100049.99)]
+07-06-2021 21:14:49.686 [http-nio-8189-exec-10] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:49.692 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/cart", parameters={}
+07-06-2021 21:14:49.692 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.CartController#getCurrentCart(Principal)
+07-06-2021 21:14:49.699 [http-nio-8189-exec-1] INFO  r.g.a.controllers.CartController.getCurrentCart - Cart(ownerId=1, cartItems=[], price=100049.99)
+07-06-2021 21:14:49.699 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:49.699 [http-nio-8189-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [CartDto(items=[], totalPrice=100049.99)]
+07-06-2021 21:14:49.700 [http-nio-8189-exec-1] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:14:51.283 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.traceDebug - GET "/shop/api/v1/orders", parameters={}
+07-06-2021 21:14:51.284 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to ru.geekbrains.aprilmarket.controllers.OrderController#getCurrentUserOrders(Principal)
+07-06-2021 21:14:51.300 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+07-06-2021 21:14:51.312 [http-nio-8189-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing [[OrderDto(id=1, username=bob1, address=5353535, totalPrice=50.00, items=[OrderItemDto(productId=1, p (truncated)...]
+07-06-2021 21:14:51.315 [http-nio-8189-exec-2] DEBUG o.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+07-06-2021 21:15:00.006 [scheduling-1] INFO  r.g.a.scheduling.ExampleTask.reportCurrentTime - Текущее время 21:15:00

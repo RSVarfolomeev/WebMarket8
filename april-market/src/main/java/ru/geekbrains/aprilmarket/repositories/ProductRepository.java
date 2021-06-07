@@ -1,0 +1,17 @@
+package ru.geekbrains.aprilmarket.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+import ru.geekbrains.aprilmarket.entities.Product;
+import ru.geekbrains.aprilmarket.entities.User;
+
+import java.util.Optional;
+
+@Repository
+public interface ProductRepository extends JpaRepository<Product, Long> , JpaSpecificationExecutor<Product> {
+//    @Query("select p from products p where ")
+//    Product findAllByCategories();
+//    Product getAllByPriceGreaterThanAndPri
+}
